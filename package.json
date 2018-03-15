@@ -1,0 +1,17 @@
+{
+  "name": "learnautomation",
+  "version": "1.0.0",
+  "description": "To learn automation Testing.",
+  "main": "nightwatch.js",
+  "scripts": {
+    "test": "node nightwatch -e chrome"
+  },
+  "keywords": [
+    "Ronak"
+  ],
+  "author": "Ca",
+  "license": "ISC",
+  "dependencies": {
+    "nightwatch": "^0.9.20"
+  }
+}
