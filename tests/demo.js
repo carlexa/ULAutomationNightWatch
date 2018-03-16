@@ -8,7 +8,6 @@
         .click('#npm-search > button')
         .assert.containsText('.search-results div:first-child .packageName', 'Babel')
         .pause(2000)
-
         .end();
     }
   };

@@ -4,7 +4,8 @@
   "description": "To learn automation Testing.",
   "main": "nightwatch.js",
   "scripts": {
-    "test": "node nightwatch -e chrome"
+    "test": "node nightwatch -e chrome -a demo",
+    "test2": "node nightwatch -e chrome -a demo2"
   },
   "keywords": [
     "Ronak"
