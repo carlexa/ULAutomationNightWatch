@@ -4,7 +4,7 @@ module.exports = {
         var search = browser.page.search();
 
         search.navigate()
-          .SearchFor('Babel')
+          .searchFor('Babel')
           .confirmFirstResult('Babel')
         browser.pause(2000)
           .end();

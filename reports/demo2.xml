@@ -5,9 +5,9 @@
 
   <testsuite name="demo2"
     errors="1" failures="0" hostname="" id="" package="demo2" skipped="0"
-    tests="1" time="0.007000" timestamp="Fri, 16 Mar 2018 14:57:29 GMT">
+    tests="1" time="0.004000" timestamp="Fri, 16 Mar 2018 18:34:42 GMT">
   
-    <testcase name="Learning UI Automation 2" classname="demo2" time="0.007000" assertions="0">
+    <testcase name="Learning UI Automation 2" classname="demo2" time="0.004000" assertions="0">
     </testcase>
   
 
@@ -15,8 +15,8 @@
     <system-err>
         Error while running [Demo2 / Learning UI Automation 2]:
 
-  TypeError: search.navigate(...).pause is not a function
-    at Object.Learning UI Automation 2 (/Users/carlosavila/Desktop/LearnAutomation/tests/demo2.js:7:12)
+  TypeError: search.navigate is not a function
+    at Object.Learning UI Automation 2 (/Users/carlosavila/Desktop/LearnAutomation/tests/demo2.js:6:16)
     at Module.call (/Users/carlosavila/Desktop/LearnAutomation/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /Users/carlosavila/Desktop/LearnAutomation/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/Users/carlosavila/Desktop/LearnAutomation/node_modules/q/q.js:834:54)
